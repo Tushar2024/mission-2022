@@ -6,8 +6,6 @@ body {
 .header-heading {
     font-weight: 900;
     font-size: 50px;
-    border-left: 4px solid green;
-    height: 50px;
 }
 
 .font-color {
@@ -24,6 +22,10 @@ body {
     padding-left: 120px;
 }
 
+.mission-design h1 {
+    border-left: 5px solid tomato;
+}
+
 .mission-design img {
     width: 80%;
 }
@@ -36,4 +38,41 @@ body {
     background-image: linear-gradient(orange, tomato);
     padding: 10px 30px;
     border-radius: 7px;
+}
+
+.font-align {
+    text-align: center;
+}
+
+.my-goals {
+    text-align: center;
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.goal-parts {
+    text-align: left;
+    text-align: justify;
+    padding: 10px 30px;
+    margin-left: 20px;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 10px;
+    margin-bottom: 120px;
+}
+
+.goal-parts img {
+    width: 60%;
+}
+
+#mission-background {
+    background-color: #4F9DA6;
+}
+
+#vission-background {
+    background-color: #FF5959;
+}
+
+#goals-background {
+    background-color: #FFF4D6;
 }
